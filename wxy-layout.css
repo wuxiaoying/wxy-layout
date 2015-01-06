@@ -1,0 +1,6 @@
+html /deep/ [layout-margin] {
+  margin: 8px;
+}
+html /deep/ [layout-padding] {
+  margin: 8px;
+}
