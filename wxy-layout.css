@@ -1,6 +1,4 @@
-html /deep/ [layout-margin] {
-  margin: 8px;
-}
-html /deep/ [layout-padding] {
+html /deep/ [layout-margin],
+html /deep/ [layout-margin] > [flex] {
   margin: 8px;
 }

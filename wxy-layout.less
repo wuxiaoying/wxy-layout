@@ -5,11 +5,8 @@
 @layout-gutter-width: 16px;
 
 html @{deep} {
-  [layout-margin] {
-    margin: @layout-gutter-width / 2;
-  }
-
-  [layout-padding] {
+  [layout-margin],
+  [layout-margin] > [flex] {
     margin: @layout-gutter-width / 2;
   }
 }
