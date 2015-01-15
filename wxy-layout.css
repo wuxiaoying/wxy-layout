@@ -2,3 +2,10 @@ html /deep/ [layout-margin],
 html /deep/ [layout-margin] > [flex] {
   margin: 8px;
 }
+html /deep/ paper-fab[bottom-right] {
+  position: absolute;
+  top: auto;
+  right: 16px;
+  bottom: 16px;
+  left: auto;
+}

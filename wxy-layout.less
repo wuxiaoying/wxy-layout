@@ -4,9 +4,27 @@
 
 @layout-gutter-width: 16px;
 
+@button-fab-width: 56px;
+@button-fab-height: 56px;
+@button-fab-padding: 16px;
+
+.fab-position (@spot, @top: auto, @right: auto, @bottom: auto, @left: auto) {
+  &[@{spot}] {
+    position: absolute;
+    top: @top;
+    right: @right;
+    bottom: @bottom;
+    left: @left;
+  }
+}
+
 html @{deep} {
   [layout-margin],
   [layout-margin] > [flex] {
     margin: @layout-gutter-width / 2;
+  }
+
+  paper-fab {
+    .fab-position(bottom-right, auto, @button-fab-padding, @button-fab-padding, auto);
   }
 }
