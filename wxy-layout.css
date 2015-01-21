@@ -9,3 +9,6 @@ html /deep/ paper-fab[bottom-right] {
   bottom: 16px;
   left: auto;
 }
+html /deep/ .spacing-top {
+  margin-top: 10px;
+}
