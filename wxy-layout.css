@@ -12,3 +12,6 @@ html /deep/ paper-fab[bottom-right] {
 html /deep/ .spacing-top {
   margin-top: 10px;
 }
+html /deep/ .spacing-bottom {
+  margin-bottom: 10px;
+}
